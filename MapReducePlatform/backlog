@@ -1,0 +1,5 @@
+(1) RM: monitor the interval of heartbeat message, clear node if possible
+	NM: After node failure and reconnection, remove all the jobs in it(when receiving node id doesn't match the local node status)
+(2) Integrate reducer in
+(3) NodeManager: require for intermediate files
+(4) DataNode: Cache Connections
